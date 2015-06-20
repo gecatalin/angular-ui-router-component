@@ -33,7 +33,7 @@ var ngModule = angular.module('app', []);
 import c from 'components/angular-ui-router-component/_build/index';
 
 // Instantiate component
-c(ngModule, options);
+c(ngModule, { baseUrl: 'components/angular-ui-router-component' );
 ```
 
 ## Component options
