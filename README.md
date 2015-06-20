@@ -2,10 +2,7 @@
 
 ## Angular ui-router component
 
-[AngularJS Express](https://github.com/angular-express/angular-express) component that contains:
-
-- sample ui-router state configuration
-- sample template
+[AngularJS Express](https://github.com/angular-express/angular-express) to add a sample ui-router component with state configuration.
 
 ## Installation
 
