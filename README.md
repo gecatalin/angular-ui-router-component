@@ -12,6 +12,14 @@ To install the component:
 $ ngx install angular-ui-router-component
 ```
 
+To install multiple angular-ui-router-component instances in the same app:
+
+```bash
+$ ngx install angular-ui-router-component homepage
+$ ngx install angular-ui-router-component about
+$ ngx install angular-ui-router-component contact
+```
+
 No clue what the `ngx` command line tool is? Learn more about [AngularJS Express](https://github.com/angular-express/angular-express).
 
 ## How to use
@@ -26,11 +34,11 @@ and import the component in your Angular application:
 // Angular main module
 var ngModule = angular.module('app', []);
 
-// Import component
-import c from 'components/angular-ui-router-component/_build/index';
+// Import angular-ui-router-component homepage component
+import c from 'components/homepage/_build/index';
 
 // Instantiate component
-c(ngModule, { baseUrl: 'components/angular-ui-router-component' );
+c(ngModule, { baseUrl: 'components/homepage' );
 ```
 
 ## Component options
