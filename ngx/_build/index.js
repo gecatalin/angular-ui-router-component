@@ -1,6 +1,6 @@
 import angular from 'angular';
 import config from './config';
-import configureStates from './config.states';
+import configureStates from './configure-states';
 
 export default function(ngModule, options){
   angular.merge(config, options);

@@ -26,7 +26,7 @@ No clue what the `ngx` command line tool is? Learn more about [AngularJS Express
 
 After installing the component:
 
-- edit state configuration in `_build/config.states.js`
+- edit state configuration in `_build/configure-states.js`
 
 and import the component in your Angular application:
 
