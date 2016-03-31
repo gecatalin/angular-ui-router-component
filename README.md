@@ -38,7 +38,7 @@ var ngModule = angular.module('app', []);
 import c from 'components/homepage/_build/index';
 
 // Instantiate component
-c(ngModule, { baseUrl: 'components/homepage' );
+c(ngModule, { baseUrl: 'components/homepage' });
 ```
 
 ## Component options
